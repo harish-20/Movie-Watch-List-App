@@ -1,0 +1,8 @@
+.layout {
+  display: flex;
+}
+
+.layout .main-content {
+  max-height: 100vh;
+  overflow-y: auto;
+}

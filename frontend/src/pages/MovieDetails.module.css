@@ -1,0 +1,79 @@
+.movie-details-section {
+  min-height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.movie-details-section .movie-details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+}
+
+.movie-details-section .movie-details h2 {
+  font-size: 60px;
+}
+
+.movie-details-section .movie-details .description {
+  color: #d1d1d1;
+  line-height: 2;
+}
+
+.movie-details-section .movie-details .rating-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.movie-details-section .movie-details .actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.movie-details-section .movie-details .actions button {
+  background-color: #ffffff4e;
+  border: none;
+  border-radius: 14px;
+  padding: 12px 24px;
+  min-width: 300px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.movie-details-section .movie-details .actions button:hover {
+  background-color: #ffffff77;
+}
+
+.movie-details-section .movie-details .actions button.active {
+  background-color: transparent;
+  border: 2px solid #ffffff4e;
+  transition: 0.2s;
+}
+
+.movie-details-section .movie-details .actions button:has() {
+  min-width: none;
+}
+
+.movie-details-section .movie-details .actions img {
+  height: 30px;
+  cursor: pointer;
+}
+
+.movie-details-section .movie-details .actions button.active:hover {
+  background-color: #ffffff4e;
+}
+
+.movie-details-section .image-container {
+  display: flex;
+}
+.movie-details-section .image-container img {
+  max-height: 600px;
+}

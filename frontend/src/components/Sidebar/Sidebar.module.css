@@ -1,0 +1,43 @@
+.sidebar {
+  width: 300px;
+  background: var(--black);
+  min-height: 100vh;
+}
+
+.sidebar .title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  padding: 8px 12px;
+  color: rgb(193, 2, 2);
+}
+
+.sidebar .links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 20px;
+  padding: 20px 10px;
+}
+
+.sidebar .links .link,
+.sidebar .links .active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.sidebar .links .link:hover {
+  background: #ffffff52;
+  color: var(--dark);
+}
+
+.sidebar .active {
+  font-weight: 600;
+  background: #ffffff7a;
+  color: var(--dark);
+}

@@ -1,0 +1,59 @@
+.add-movie-form {
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  gap: 20px;
+  width: 600px;
+  margin: 40px;
+}
+
+.add-movie-form .input {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.add-movie-form .input .error {
+  border-color: red;
+}
+
+.add-movie-form .input .error-text {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.add-movie-form .input label {
+  font-weight: 500;
+}
+
+.add-movie-form .input input,
+.add-movie-form .input textarea {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 12px 8px;
+  color: white;
+}
+
+.add-movie-form .input textarea {
+  resize: vertical;
+  font-family: sans-serif;
+}
+
+.add-movie-form .actions {
+}
+
+.add-movie-form .actions button {
+  width: 100%;
+  background: #ffffff8a;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 12px;
+  transition: 0.2s;
+}
+
+.add-movie-form .actions button:hover {
+  background: #ffffffb2;
+}

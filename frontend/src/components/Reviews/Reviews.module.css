@@ -1,0 +1,60 @@
+.reviews-section {
+}
+
+.reviews-section .add-review-form {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.reviews-section .add-review-form .input {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reviews-section .add-review-form .input label {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.reviews-section .add-review-form .input textarea {
+  background: transparent;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-family: sans-serif;
+  min-height: 50px;
+  max-height: 800px;
+  resize: vertical;
+}
+
+.reviews-section .add-review-form button {
+  background-color: #ffffff83;
+  border: none;
+  border-radius: 14px;
+  padding: 12px 24px;
+  width: 100%;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.reviews-section .add-review-form button:hover {
+  background-color: #ffffffcb;
+}
+
+.reviews-section .reviews {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.reviews-section .reviews .review {
+  border-bottom: 2px solid gray;
+  padding: 18px;
+}
