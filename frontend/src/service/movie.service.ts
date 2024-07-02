@@ -3,7 +3,7 @@ import axios, { AxiosInstance } from "axios";
 const baseURL =
   process.env.NODE_ENV !== "production"
     ? "http://localhost:8000/api"
-    : "hosted url";
+    : "https://movie-watch-list-app.onrender.com";
 
 const api: AxiosInstance = axios.create({ baseURL });
 
