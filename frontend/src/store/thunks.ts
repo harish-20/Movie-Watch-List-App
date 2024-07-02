@@ -4,7 +4,7 @@ import * as api from "../service/movie.service";
 
 const getAllMovies = createAsyncThunk<Movie[], void, any>(
   "get-movies",
-  async (_, thunkApi) => {
+  async (_) => {
     const { movies } = await api.getAllMovies();
 
     return movies;
