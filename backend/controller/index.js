@@ -112,6 +112,7 @@ const addReview = async (req, res) => {
     const movieIndex = movies.findIndex((movie) => movie.id === id);
 
     if (movieIndex !== -1) {
+      if (!movies[movieIndex].review) movies[movieIndex].review = [];
       movies[movieIndex].review.push(review);
       res.status(200).send({ status: "ok", movie: movies[movieIndex] });
     } else {
